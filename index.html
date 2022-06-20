@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Minji Choi's portfolio 👩🏻‍💻" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="" />
+        <!--thumnail of og-->
+        <meta property="og:description" content="Hello, I am Minji Choi! Here is my portfolio 🤓" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@300&family=Press+Start+2P&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./src/css/reset.css">
+        <link rel="stylesheet" href="./src/css/style.css">
+        <script src="https://kit.fontawesome.com/c7431b8b77.js" crossorigin="anonymous" defer></script>
+        <script src="./src/js/index.js" defer></script>
+        <title>Minji Choi's portfolio 👩🏻‍💻</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item" data-link="#main"><span>@</span> Minji Choi</li>
+                    <li class="nav-item" data-link="#introduction">About Me</li>
+                    <li class="nav-item" data-link="#projects">Projects</li>
+                    <li class="nav-item" data-link="#contacts">Contacts</li>
+                </ul>
+            </nav>
+        </header>
+        <section id="main" class="main-section">
+            <!-- main -->
+            <figure>
+                <img class="profile" src="./images/profile.jpeg" />
+            </figure>
+            <div>
+                <h1 class="greetings">Hello!<br /> I am Minji Choi</h1>
+                <p class="read-more">Read more <strong data-link="#introduction" class="link">about me</strong> and
+                    <strong data-link="#projects" class="link">my
+                        projects</strong>!
+                </p>
+            </div>
+        </section>
+        <section class="introduction-section" id="introduction">
+            <!-- Introduction -->
+            <h2 class="introduction-title">About Me</h2>
+            <p>Thank you for visiting here! I am an upcoming fourth-year student at Metropolia University of Applied
+                Science. I am majoring in Information and Communications Technology and my specialty is Mobile
+                Solutions.</p>
+            <p>During my study, I have developed interest and passion for Full stack web development. I have learned
+                various technologies such as backend development with Node.js, mobile application development for
+                Android, iOS, and React Native, and also the basics of SQL and NoSQL(MongoDB) databases, Git, CI/CD,
+                Agile
+                software development(design sprint, scrum), and UI/UX design.</p>
+            <p>Open-minded,
+                people-centric, and quick learning as I have studied and worked in local and international environments
+                and had several client work projects. I like dealing with ambiguous requirements and figuring out what
+                will be needed. I am highly driven by the phase of solving problems and it makes me so happy to finally
+                achieve requirements and make people who need them satisfied.</p>
+        </section>
+        <section class="projects-section" id="projects">
+            <!-- projects -->
+            <h2 class="projects-title">Projects</h2>
+            <ul class="projects-container">
+                <li class="project">
+                    <figure><img src="./images/ecotravel.png" alt="Ecotravel" /></figure>
+                    <h3>Project</h3>
+                    <p>description</p>
+                </li>
+                <li class="project">
+                    <figure><img /></figure>
+                    <h3>Project</h3>
+                    <p>description</p>
+                </li>
+            </ul>
+        </section>
+        <footer id="contacts">
+            <h2 class="contacts-title">Contacts</h2>
+            <p>I am looking forward to hearing from you :-)</p>
+            <ul class="contacts-container">
+                <li> <a target="_blank" class="email" href="mailto:comg2843@gmail.com"><i
+                            class="fa-solid fa-envelope"></i>Mail</a></li>
+                <li><a target="_blank" class="github-link" href="https://github.com/mingg1"><i
+                            class="fa-brands fa-github"></i>Github</a></li>
+                <li><a target="_blank" class="linkedin-link" href="https://www.linkedin.com/in/minji-choi-581956170/"><i
+                            class="fa-brands fa-linkedin"></i>LinkedIn</a></li>
+            </ul>
+        </footer>
+    </body>
+
+</html>

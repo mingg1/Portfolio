@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "name": "Wave music",
+      "alt": "Wave music",
+      "stacks": ["React", "Redux", "Apollo", "Node.js", "GraphQL", "MongoDB"],
+      "description": "Music app for browsing music-related things such as songs, artists, and albums. The application suggests songs according to the users' taste.",
+      "repository": "https://github.com/mingg1/Wave-music",
+      "thumbnail": "./images/wave.png"
+    },
+    {
+      "name": "ClimbStation",
+      "alt": "ClimbStation",
+      "stacks": ["Kotlin"],
+      "description": "Android application project to control indoor climbing machines of ClimbStation. This application performs CRUD operations using Room Database to manipulate the user's custom climbing program.      My contribution was climb mode setting (quick, advanced), climbing progress view with timer, climb history, config file parser and created http requests to connect the machine.      ",
+      "repository": "https://github.com/mingg1/ClimbStation",
+      "thumbnail": "./images/climbstation.jpg"
+    },
+    {
+      "name": "Symmetrical spoon",
+      "alt": "Symmetrical spoon",
+      "description": "Android application that encourages users to explore nearby areas and complete various tasks to receive in-game rewards. It contains basics for Android. Technologies used are MVVM design pattern, fragment, livedata, data binding, room database, Retrofit, coroutines, step detector sensor, maps and Augmented Reality.  ",
+      "stacks": ["Kotlin"],
+      "repository": "https://github.com/mingg1/symmetrical-spoon",
+      "thumbnail": "./images/symmetrical_spoon.png"
+    },
+    {
+      "name": "Ecotravel",
+      "alt": "Ecotravel",
+      "description": "Movement tracker, and transportation and route finder application for iOS. Users can find the most eco-friendly means of transportation and movement in addition to being able to track their movement with statistics.",
+      "stacks": ["Swift"],
+      "repository": "https://github.com/mingg1/EcoTravel",
+      "thumbnail": "./images/ecotravel.png"
+    },
+    {
+      "name": "Food advisor",
+      "alt": "Food advisor",
+      "stacks": ["HTML", "CSS", "Javascript", "Node.js", "MariaDB"],
+      "description": "Fullstack web application for sharing media about restaurants, in which restaurant owners can promote their restaurants, and customer users can review restaurants.",
+      "repository": "https://github.com/mingg1/Food-Advisor",
+      "thumbnail": "./images/wave.png"
+    },
+    {
+      "name": "JS painter",
+      "alt": "JS painter",
+      "stacks": ["HTML", "CSS", "Javascript"],
+      "description": "Web drawing application made with Vanilla Javascript. Features are fill/draw mode, color picker, line width setting, and saving painted pictures.",
+      "repository": "https://github.com/mingg1/JS-painter",
+      "thumbnail": "./images/js-painter.jpg"
+    },
+    {
+      "name": "Momontom",
+      "alt": "Momontom",
+      "stacks": ["HTML", "CSS", "Javascript"],
+      "description": "Momentum clone application made with Vanilla Javascript. The application uses Weather API and geoLocation, receiving the user's location information and displaying the current weather, and temperature. Also, users can check the time, and write their names and to-dos for the day.",
+      "repository": "https://github.com/mingg1/Momontom",
+      "thumbnail": "./images/momontom.png"
+    }
+  ]
+}
