@@ -38,7 +38,7 @@
       "stacks": ["HTML", "CSS", "Javascript", "Node.js", "MariaDB"],
       "description": "Fullstack web application for sharing media about restaurants, in which restaurant owners can promote their restaurants, and customer users can review restaurants.",
       "repository": "https://github.com/mingg1/Food-Advisor",
-      "thumbnail": "./images/wave.png"
+      "thumbnail": "./images/food_advisor.png"
     },
     {
       "name": "JS painter",
