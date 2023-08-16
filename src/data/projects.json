@@ -1,18 +1,57 @@
 {
   "projects": [
     {
+      "name": "Integrify Boutique",
+      "alt": "Integrify Boutique",
+      "stacks": [
+        "React",
+        "Redux",
+        "TypeScript",
+        "Node.js",
+        "Express.js",
+        "MongoDB"
+      ],
+      "description": "A Full-stack e-commerce application for apparel using the MERN stack.",
+      "repository": "https://github.com/mingg1/Integrify-Boutique",
+      "thumbnail": "./images/ib.png"
+    },
+    {
+      "name": "Where Next",
+      "alt": "Where Next",
+      "stacks": ["React", "Redux", "TypeScript", "SCSS"],
+      "description": "A simple React application where you can check information of countries around the world :-)",
+      "repository": "https://github.com/mingg1/where-next",
+      "thumbnail": "./images/where-next.png"
+    },
+    {
       "name": "Wave music",
       "alt": "Wave music",
-      "stacks": ["React", "Redux", "Apollo", "Node.js", "GraphQL", "MongoDB"],
+      "stacks": [
+        "React",
+        "Redux",
+        "Apollo",
+        "Node.js",
+        "GraphQL",
+        "Express.js",
+        "MongoDB"
+      ],
       "description": "Music app for browsing music-related things such as songs, artists, and albums. The application suggests songs according to the users' taste.",
       "repository": "https://github.com/mingg1/Wave-music",
       "thumbnail": "./images/wave.png"
     },
     {
+      "name": "GravelBot",
+      "alt": "GravelBot",
+      "stacks": ["React Native", "Redux", "TypeScript"],
+      "description": "An application to manage and monitor GravelBots by constantly interecting with them, and to set areas to spread gravel. This has only UI at this stage.",
+      "repository": "https://github.com/mingg1/GravelBot",
+      "thumbnail": "./images/gb.png"
+    },
+    {
       "name": "ClimbStation",
       "alt": "ClimbStation",
       "stacks": ["Kotlin"],
-      "description": "Android application project to control indoor climbing machines of ClimbStation. This application performs CRUD operations using Room Database to manipulate the user's custom climbing program.      My contribution was climb mode setting (quick, advanced), climbing progress view with timer, climb history, config file parser and created http requests to connect the machine.      ",
+      "description": "Android application project to control indoor climbing machines of ClimbStation. My contribution was climb mode setting (quick, advanced), climbing progress view with timer, climb history, config file parser and created http requests to connect the machine.      ",
       "repository": "https://github.com/mingg1/ClimbStation",
       "thumbnail": "./images/climbstation.jpg"
     },
