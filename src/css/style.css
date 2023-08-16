@@ -72,13 +72,22 @@ body {
   margin: auto;
 }
 
+.highlight,
+.greetings {
+  margin-bottom: 2rem;
+}
+
 .greetings {
   font-size: 5.5rem;
-  margin-bottom: 2rem;
   font-family: 'Archivo Black', sans-serif;
   text-shadow: 6px 0px 0px var(--border-purple);
   -webkit-text-stroke: 1.5px black;
   color: white;
+}
+
+.highlight {
+  font-weight: 400;
+  font-size: 1.3rem;
 }
 
 .read-more {
